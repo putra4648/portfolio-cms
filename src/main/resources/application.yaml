@@ -1,0 +1,11 @@
+spring:
+    application:
+        name: portfolio
+okta:
+  oauth2:
+    issuer: https://dev-t6rkpv6j.au.auth0.com/
+    client-id: cyDrFGVPvSeSuSEpq6qgnaXBSWVljSMM
+    client-secret: tL_9JCQ8PLwThIiazyfhAz14kXocefiz5QoKsDXHvAumVtUzwiD90XrXPtB68aAz
+
+server:
+  port: 3000
