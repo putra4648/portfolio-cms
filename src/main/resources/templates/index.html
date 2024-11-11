@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en" layout:decorate="~{/layout/layout}">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Demo</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width" />
-    <base href="/" />
-  </head>
-  <body>
-    <div layout:fragment="content">
-      <button type="button" class="btn btn-primary" data-mdb-ripple-init>
-        Button
-      </button>
-    </div>
-  </body>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width" />
+  <base href="/" />
+  <title>Hello World</title>
+</head>
+
+<body>
+  <div layout:fragment="content" class="">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script> 
+
+    <dotlottie-player src="https://lottie.host/8388c8ce-f314-428d-a955-dbc8f9bf8196/bIlpX4SyZP.json" background="transparent" speed="1" style="width: 100%; height: 100vh;" loop autoplay></dotlottie-player>
+  </div>
+</body>
+
 </html>
